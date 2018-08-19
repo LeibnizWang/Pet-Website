@@ -37,3 +37,4 @@ def op2(request):
 #image_resized = im.resize((480,280), Image.ANTIALIAS)
 #image_resized.save('C:/Users/leibn/Documents/Django Projects/Django0427/Pet/static/images/UserhomeImages/768798.jpg', 'jpeg')
 
+#这是在Github上进行的尝试.
