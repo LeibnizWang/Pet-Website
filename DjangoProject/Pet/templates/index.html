@@ -1,0 +1,457 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>宠物寄养信息平台</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Pets Care Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="/static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="/static/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
+	<!-- easy-responsive-tabs -->
+
+	<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="/static/css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="/static/js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Junge" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+	    rel='stylesheet' type='text/css'>
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="agileits-banner">
+		<div class="bnr-agileinfo">
+			<div class="banner-top w3layouts">
+				<div class="container">
+					<ul class="agile_top_section">
+						<li>
+							<p> {{welcome}} </p>
+						</li>
+						
+						<li><a class="sign" href="/Account/login-2"><i class="fa fa-sign-in" aria-hidden="true"></i> 快速登录</a></li>
+					
+						<li><a class="sign" href="/Account/"><i class="fa fa-sign-in" aria-hidden="true"></i> 个人中心</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="banner-w3text w3layouts">
+				<p class="w3_text">信息发布 筛选匹配 安全可靠</p>
+				<h3 class="w3ls_agile">温暖 陪伴 关怀</h3>
+
+				<h2>宠物之家</h2>
+			</div>
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="agile_inner_nav_w3ls">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="/Pet/index">宠物寄养</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-left">
+							<ul class="nav navbar">
+								<li><a href="/Pet/index" class="active">主页</a></li>
+								<li><a href="/Pet/fostering">我要寄养</a></li>
+								<li><a href="/Pet/adoption">我要收养</a></li>
+								<li><a href="/Pet/forum">宠物社区</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- //navigation -->
+		</div>
+	</div>
+	<!-- //banner -->
+	
+	<!-- Modal1 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+						<h3 class="agileinfo_sign">登录</h3>
+						<div class="login-form">
+							<form action="sign_in.html" method="post">
+								<input type="email" name="邮箱" placeholder="邮箱" required="">
+								<input type="password" name="密码" placeholder="密码" required="">
+								<div class="tp">
+									<input type="submit" value="登录">
+								</div>
+							</form>
+						</div>
+						<p><a href="/Pet/index" data-toggle="modal" data-target="#myModal3"> 还没有账户？点击注册</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Modal1 -->
+	
+	
+	<!-- welcome -->
+	<div class="welcome agileits">
+		<div class="container">
+			<div class="welcome-w3lsrow">
+				<div class="col-md-5 col-sm-5 w3welcome-left">
+					<div class="w3welcome-text">
+						<h5 class="w3l-subtitle">让宠物像在家一样生活</h5>
+						<!--p>让宠物像在自己家一样生活</p-->
+						<p>没时间照顾你的爱宠吗？点击“我要寄养”，登记详细信息，本站会帮助你匹配到多个合适的收养用户。为它挑一个满意的寄养家庭，让每一次寄养都变成有趣的旅程。</p>
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-7 w3welcome-img">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	
+	<!-- gallery -->
+	<h3 class="agileits-title">热门寄养主</h3>
+	<div class="gallery">
+		<div class="container">
+			<div class="gallery-agileinfo">
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e1.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e1.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>海淀区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e2.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e2.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>丰台区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e3.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e3.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>石景山区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e4.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e4.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>怀柔区</h4>
+						   <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e5.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e5.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>房山区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e6.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e6.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>朝阳区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+				
+				
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e7.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e7.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>大兴区</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e8.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e8.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>天津市</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4 col-xs-6 w3gallery-grids">
+					<a href="/static/images/e9.jpg" class="imghvr-hinge-right figure">
+						<img src="/static/images/e9.jpg" alt="" title="Pets Care Image"/> 
+						<div class="agile-figcaption">
+						  <h4>石家庄市</h4>
+						  <p>Add Some Description</p>
+						</div>
+					</a>
+				</div>
+			
+				<div class="clearfix"> </div>
+
+			</div>
+		</div>
+	</div>
+	
+	<!-- /services -->
+	<div class="agile_secives " id="services">
+		<div class="container">
+			<h3 class="agileits-title two">让我来照顾你的毛孩子吧</h3>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>寄养环境</h5>
+							<p>整洁舒适的居住环境，开放宽敞的活动空间，温暖充足的阳光</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-ambulance" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>日常照料</h5>
+							<p>干净清洁的饮用水，新鲜可口的食物，定期的宠物清洁</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-medkit" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>宠物陪伴</h5>
+							<p>拒绝笼养，每天有充足的散步和玩耍时间，还有可爱的小伙伴</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-flask" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>评价体系</h5>
+							<p>公开透明的评价体系，寄养用户的真实反馈，为宠物挑选最合适的寄养家庭</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-line-chart" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>安全可靠</h5>
+							<p>实名登记，提供寄养家庭的真实环境照片，保证宠物每一次寄养的安全</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>隐私保护</h5>
+							<p>泄露用户的私人信息，在用户挑选合适的寄养家庭后才会向双方公开信息</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- copy rights start here -->
+	<div class="copy-w3right">
+		<div class="container">
+			<div class="top-nav bottom-w3lnav">
+				<ul>
+					<li><a href="/Pet/index" class="active">主页</a></li>
+					<li><a href="/Pet/fostering">我要寄养</a></li>
+					<li><a href="/Pet/adoption">我要收养</a></li>
+					<li><a href="/Pet/forum">宠物社区</a></li>
+				</ul>
+			</div>
+			<p>© 2018 宠物寄养信息平台. All Rights Reserved | By BITPET</a> </p>
+		</div>
+	</div>
+	<!-- text-effect -->
+	<script type="text/javascript" src="/static/js/jquery.transit.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.textFx.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.w3ls_agile').textFx({
+				type: 'fadeIn',
+				iChar: 100,
+				iAnim: 1000
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.w3_text').textFx({
+				type: 'fadeIn',
+				iChar: 100,
+				iAnim: 1000
+			});
+		});
+	</script>
+
+	<!-- //copy right end here -->
+	<!-- password-script -->
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<!-- script for responsive tabs -->
+	<script src="/static/js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+				type: 'vertical',
+				width: 'auto',
+				fit: true
+			});
+		});
+	</script>
+	<!-- script for responsive tabs -->
+	<script src="/static/js/SmoothScroll.min.js"></script>
+	<!---->
+	<script src="/static/js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="/static/css/chocolat.css" type="text/css" media="screen">
+	<!--light-box-files -->
+	<script type="text/javascript">
+		$(function () {
+			$('.w3gallery-grids a').Chocolat();
+		});
+	</script>
+	
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="/static/js/move-top.js"></script>
+	<script type="text/javascript" src="/static/js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="/static/js/bootstrap.js"></script>
+</body>
+
+</html>

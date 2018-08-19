@@ -1,0 +1,359 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>宠物寄养信息平台</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Pets Care Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="/static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="/static/css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="/static/js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+	    rel='stylesheet' type='text/css'>
+	<!-- //web-fonts -->
+	
+	<!-- 论坛 -->
+	<link href="/static/css/style_2.css" rel='stylesheet' type='text/css' />	
+	
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="agileits-banner about-w3banner">
+		<div class="bnr-agileinfo">
+			<div class="banner-top w3layouts">
+				<div class="container">
+					<ul class="agile_top_section">
+						<li>
+							<p> 欢迎光临寄养平台 !</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="banner-w3text w3layouts">
+				<h2>宠物寄养</h2>
+			</div>
+			<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="agile_inner_nav_w3ls">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="/Pet/index">宠物寄养</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-left">
+							<ul class="nav navbar">
+								<li><a href="/Pet/index">主页</a></li>
+								<li><a href="/Pet/fostering">我要寄养</a></li>
+								<li><a href="/Pet/adoption">我要收养</a></li>
+								<li><a href="/Pet/forum" class="active">宠物社区</a></li>
+							</ul>
+						</div>
+					
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- //navigation -->
+		</div>
+	</div>
+	<!-- //banner -->
+	
+	<div class="news two">
+		    <div class="container">
+			<h3 class="agileits-title">社区热帖</h3>
+			</br>
+			<form class="navbar-form navbar-left" action="/Pet/forum-search" method="get">
+					<div class="form-group w3-agile"><input class="form-control" name='keywords' placeholder="关键字"></div>
+					<button type="submit" class="btn btn-default">搜索</button>
+				</form>
+			<div style = "text-align:right;">
+				<a href="/Pet/poster" class="btn btn-primary" role="button">我要发帖</a>
+			</div>
+			</br>
+			
+		
+		
+			 <div class="news-article">
+			  <div class="col-md-6 article-post">
+				<a href="single.html" ><img src={{picture1}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+						 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+					     <li>{{time1}}</li>
+						 <li> <a href="#">Author:{{postname1}}</a></li>
+						 <li> <a href="#">{{comments1}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title1}}</h3></a>
+					<p>{{text1}}</p>
+					
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>
+				<!--2-->					
+				 <div class="col-md-6 article-post">
+				<a href="single.html" ><img src={{picture2}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+							 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+					     <li>{{time2}}</li>
+						 <li> <a href="#">Author:{{postname2}}</a></li>
+						 <li> <a href="#">{{comments2}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title2}}</h3></a>
+					<p>{{text2}}</p>
+					
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>
+				<!--3-->					
+				 <div class="col-md-6 article-post">
+				<a href="single.html" ><img src={{picture3}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+							 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+							<li>{{time3}}</li>
+							<li> <a href="#">Author:{{postname3}}</a></li>
+							<li> <a href="#">{{comments3}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title3}}</h3></a>
+					<p>{{text3}}</p>
+					
+				</div>
+				<!--post-details-->	
+				 <div class="clearfix"> </div>
+				</div>	
+				<!--4-->					
+				 <div class="col-md-6 article-post">
+				<a href="single.html" ><img src={{picture4}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+						 	 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+							<li>{{time4}}</li>
+							<li> <a href="#">Author:{{postname4}}</a></li>
+							<li> <a href="#">{{comments4}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title4}}</h3></a>
+					<p>{{text4}}</p>
+					
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>
+				<!--5-->					
+				 <div class="col-md-6 article-post">
+				<a href="single.html" ><img src={{picture5}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+						 	 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+							<li>{{time5}}</li>
+							<li> <a href="#">Author:{{postname5}}</a></li>
+							<li> <a href="#">{{comments5}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title5}}</h3></a>
+					<p>{{text5}}</p>
+					
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>	
+				<!--6-->					
+				 <div class="col-md-6 article-post lost">
+				<a href="single.html" ><img src={{picture6}} width="560" height="400" alt="img07"/></a>
+				<div class="col-md-3 post-meta">
+					<div class="meta-icon">
+						<div class="pic">
+						 	 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+						</div>
+					</div>
+					<ul class="ad-info two">
+							<li>{{time6}}</li>
+							<li> <a href="#">Author:{{postname6}}</a></li>
+							<li> <a href="#">{{comments6}} Comments</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+					<a href="single.html"><h3>{{title6}}</h3></a>
+					<p>{{text6}}</p>
+	
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>					
+			    <div class="clearfix"> </div>		
+				<!--start-blog-pagenate-->
+				
+				<center><ul class="pagination pagination-lg">
+						<li class="disabled"><a href="#"><span aria-hidden="true">«</span></a></li>
+						<li><a href="/Pet/forum-page1">1</a></li>
+						<li><a href="/Pet/forum-page2">2</a></li>
+						<li><a href="/Pet/forum-page3">3</a></li>
+						<li><a href="/Pet/forum-page4">4</a></li>
+						<li><a href="/Pet/forum-page5">5</a></li>
+						<li><a href="#"><span aria-hidden="true">»</span></a></li>
+				</ul></center>
+				
+				<!--div class="blog-pagenat">
+					<ul>
+						<li><a class="frist" href="#">Prev</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a class="last" href="#">Next</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div-->
+			<!--//End-blog-pagenate-->
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- copy rights start here -->
+	<div class="copy-w3right">
+		<div class="container">
+			<div class="top-nav bottom-w3lnav">
+				<ul>
+					<li><a href="/Pet/index" >主页</a></li>
+					<li><a href="/Pet/fostering">我要寄养</a></li>
+					<li><a href="/Pet/adoption">我要收养</a></li>
+					<li><a href="/Pet/forum" class="active">宠物社区</a></li>
+				</ul>
+			</div>
+			<p>© 2018 宠物寄养信息平台. All Rights Reserved | </p>
+		</div>
+	</div>
+	<!-- //copy right end here -->
+	<!-- password-script -->
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<script src="/static/js/SmoothScroll.min.js"></script>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="/static/js/move-top.js"></script>
+	<script type="text/javascript" src="/static/js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="/static/js/bootstrap.js"></script>
+</body>
+
+</html>

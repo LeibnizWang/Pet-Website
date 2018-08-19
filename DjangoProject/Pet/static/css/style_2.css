@@ -1,0 +1,126 @@
+/*--blog--*/
+
+
+.news {
+    padding: 10em 0 4em 0;
+    background-color:#6CF3EB;
+}
+.news.two {
+      padding: 4em 0 4em 0;
+	 background:#fff;
+}
+.news-article {
+    margin-top: 2em;
+}
+.article-post {
+  padding-left: 0;
+ margin-bottom: 2em;
+}
+.post-details h3,.post-details a h3{
+   color:#020202;
+  font-size: 1.6em;
+  margin-top: 0.5em;
+  padding: 0.6em 0 0.1em 0;
+}
+.post-details p {
+  font-weight: 400;
+  margin-top: 0.5em;
+  font-size:0.9em;
+  color: #555;
+  font-weight: 400;
+  line-height:2em;
+}
+a.blog.hvr-shutter-out-horizontal {
+  padding: 0.6em 1em;
+  color: #fff;
+  display: inline-block;
+  margin: 1em 0;
+}
+ .meta-icon {
+  margin: 25px 0 10px 65px;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 47px;
+  height: 45px;
+  width: 45px;
+  background-color:#020202;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.pic a i {
+  color: #fff;
+}
+.post-meta {
+  font-size: 0.9em;
+  text-align: right;
+  line-height: 24px;
+  float: left;
+  width: 110px;
+}
+ul.ad-info{
+ float:right;
+}
+ul.ad-info li {
+  list-style: none;
+  display: block;
+}
+ul.ad-info li,ul.ad-info li a {
+  display: block;
+  padding: 0;
+  text-align: right;
+  color: #555;
+  font-size:1em;
+  }
+ul.ad-info li  a{
+     color: #fff;
+}
+.ad-info li a:hover{
+ text-decoration:underline;
+ }
+.post-meta {
+  padding: 0;
+}
+.article-post img {
+  width: 100%;
+}
+.pic img {
+  width:50%;
+}
+.read a img {
+  width: 6%;
+  margin-top: 0.8em;
+}
+.blog-pagenat {
+  text-align: center;
+  margin-top: 3em;
+}
+.blog-pagenat ul li {
+  display: inline-block;
+  list-style:none;
+}
+.blog-pagenat ul li a {
+  display: block;
+  background:#F7F7F7;
+  padding: 8px 1.1em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color:#020202;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: 1em;
+  text-decoration: none;
+  border: 1px solid #020202;
+}
+.blog-pagenat ul li a:hover {
+  background:#2ad2c9;
+  color:#fff;
+      border: 1px solid #2ad2c9;
+}
+ul.ad-info.two li a {
+    color: #2ad2c9;
+	
+}
